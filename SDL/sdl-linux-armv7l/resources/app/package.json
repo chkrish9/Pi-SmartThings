@@ -1,0 +1,18 @@
+{
+  "name": "sdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager ./ sdl --platform=linux --arch=armv7l"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1"
+  }
+}

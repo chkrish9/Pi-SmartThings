@@ -1,0 +1,63 @@
+.num,
+.enter,
+.delete {
+  text-align: center;
+  padding: 5%;
+  border: 1px solid;
+  width: 20%;
+  float: left;
+  margin: 1% auto;
+  border-radius: 30%;
+  cursor: pointer;
+}
+.numberpad {
+  width: 100%;
+  margin: 1% auto;
+}
+.num-row {
+  display: flex;
+}
+.no-border {
+  border: 0px !important;
+}
+.camera-canvas {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.input-style {
+  margin-top: 10%;
+  height: 100%;
+  font-size: 3em;
+  text-align: center;
+}
+.video-style{
+  width: 100%;
+}
+.message-success{
+  position: absolute;
+    top: 40%;
+    left: 45%;
+    margin-top: -57px;
+    margin-left: -50px;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    background: #2af52a;
+    text-align: center;
+    padding: 4%;
+}
+
+.message-fail{
+  position: absolute;
+    top: 40%;
+    left: 45%;
+    margin-top: -57px;
+    margin-left: -50px;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    background: #e80d0d;
+    text-align: center;
+    padding: 4%;
+}

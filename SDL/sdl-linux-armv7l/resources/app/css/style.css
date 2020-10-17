@@ -1,0 +1,33 @@
+.num,
+.enter,
+.delete {
+  text-align: center;
+  padding: 2.2em;
+  border: 1px solid;
+  width: 6em;
+  float: left;
+  margin: 1em auto;
+  border-radius: 3em;
+  cursor: pointer;
+  height: 6em;
+}
+.numberpad {
+  width: 50em;
+  margin: 5em auto;
+}
+.num-row {
+  display: flex;
+}
+.no-border {
+  border: 0px !important;
+}
+.camera-canvas {
+  text-align: center;
+  margin-top: 14em;
+}
+
+.input-style {
+  margin-top: 3em;
+  height: 2em;
+  font-size: 3em;
+}
