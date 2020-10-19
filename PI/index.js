@@ -8,7 +8,7 @@ let mainWindow;
 
 app.on("ready", function() {
   mainWindow = new BrowserWindow({ width: 480, height: 320,frame: false });
-  mainWindow.setFullScreen(false);
+  mainWindow.setFullScreen(true);
   mainWindow.loadURL(
     url.format({
       pathname: path.join(__dirname, "index.html"),
